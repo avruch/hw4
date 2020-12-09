@@ -1,0 +1,9 @@
+answers:
+
+1. We asstimate that doing it manually would take around 4-5 hours (depending on how crazy politics had been that day)
+
+2. This concept could be very useful for any search task on big data bases. 
+
+3. If repeating this task frequantly we would want to keep the sorted.txt file whice includes a list of all urls visited in preveius scans.
+this should allow us to match with the new scan generated and remove duplicate urls.
+ In order to repeat every hour, we would need to generate a 1 hour counter and use the less function to re-read the website, ehile copmparing the results with the scan done an hour ago.
